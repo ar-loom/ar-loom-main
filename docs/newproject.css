@@ -53,7 +53,6 @@
             column-rule-width: 300px;
             float: left;
             font-size: large;
-            justify-content: flex-start;
            }
             
 
@@ -195,8 +194,8 @@
             position: fixed;
             top: 15px;
             right: 15px;
-            height: 90px;
-            width: 90px;
+            height: 200px;
+            width: 200px;
             
 
 
