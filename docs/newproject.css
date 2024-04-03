@@ -23,13 +23,13 @@
          }
          
          body {
-             font-family: Arial, sans-serif;
+             font-family: Arial, Helvetica, sans-serif;
              margin: 0;
              display: flex;
              flex-direction: column;
              justify-content: center;
              align-items: center;
-             background-color: #333;
+             background-color: Linen;
              background-size: 1450px;
              background-position: center top;
              background-blend-mode: lighten;
@@ -122,7 +122,7 @@
 }
  
          h1 {
-             color: white;
+             color: black;
              font-size: 700%;
              font-family: Arial, Sans-serif;
              margin-top: 70px;
@@ -130,13 +130,13 @@
          }
 
          p {
-             color: white;
+             color: black;
              margin-bottom: 150px; 
 
          }
 
          p { 
-             color: white;
+             color: black;
              margin-bottom: 20px; 
 
 
@@ -171,6 +171,7 @@
             opacity: 0; /* Start fully transparent */
             transform: scale(0.5); /* Start at half size */
             transition: opacity 2s, transform 2s; /* Smooth transition */
+            color: black;
 
         }
 
@@ -178,7 +179,8 @@
             margin-bottom: 150px; 
             font-size: 39px; 
             font-style: bold;
-           
+            color: black;
+            letter-spacing: 2px;
             
         }
 
