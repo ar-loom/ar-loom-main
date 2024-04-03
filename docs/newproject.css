@@ -46,7 +46,7 @@
             flex-direction: row; 
             position: fixed;
             top: 15px;
-            left: 15px;
+            
             height: 43px;
             column-rule-width: 300px;
             
@@ -88,7 +88,7 @@
         .tabcontent {
             display: none;
             overflow: auto; /* Enables scrolling for overflow content */
-            height: 350px; /* Set the height of the square */
+            height: 150px; /* Set the height of the square */
             border: 1px solid #000;
             position: fixed;
             background-color: Linen;
