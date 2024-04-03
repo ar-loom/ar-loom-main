@@ -77,7 +77,7 @@
             width: 150px;
             opacity: 0.75;
             padding: 10px 15px;
-            
+            position: relative;
             transition: background-color 0.8s;
             border-right: 3.5px solid #000; /* Adds a separator between buttons */
         }
@@ -96,7 +96,8 @@
             overflow: auto; /* Enables scrolling for overflow content */
             height: 350px; /* Set the height of the square */
             border: 1px solid #000;
-            position: fixed;
+            position: relative;
+            background-color: Linen;
             mix-blend-mode: hard-light;
             top: 60px;
             left: 30px;
@@ -194,7 +195,7 @@
          }
 
         img.flash-on-hover{
-            position: fixed;
+            position: relative;
             top: 15px;
             right: 15px;
             height: 150px;
