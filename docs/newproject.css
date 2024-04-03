@@ -84,10 +84,8 @@
             margin-bottom: 150px; 
             font-size: 35px; 
             font-style: italic;
-            opacity: 0;
-            transition: opacity 0.5s, font-size 0.5s;
             color: black;
-            transform: scale(0.95); /* Start slightly smaller */
+            
 
         }
 
