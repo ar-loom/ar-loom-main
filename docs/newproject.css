@@ -27,7 +27,6 @@
              justify-content: center;
              align-items: center;
              background-color: #333;
-             background-image: url('Untitled 1080p.mp4');
              background-size: 1450 px;
              background-position: center top;
              background-blend-mode: lighten;
@@ -73,7 +72,7 @@
             padding: 10px 15px;
             
             transition: background-color 0.8s;
-            border-right: 1.5px solid #000; /* Adds a separator between buttons */
+            border-right: 3.5px solid #000; /* Adds a separator between buttons */
         }
         /* Change background color of buttons on hover */
         .tab button:hover {
