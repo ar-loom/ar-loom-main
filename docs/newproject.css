@@ -88,7 +88,6 @@
             display: none;
             overflow: auto; /* Enables scrolling for overflow content */
             height: 350px; /* Set the height of the square */
-            background-color: lightblue;
             border: 1px solid #000;
             position: fixed;
             mix-blend-mode: hard-light;
@@ -165,7 +164,7 @@
 
         p.special2 {
             margin-bottom: 150px; 
-            font-size: 45px; 
+            font-size: 35px; 
             font-style: italic;
             opacity: 0; /* Start fully transparent */
             transform: scale(0.5); /* Start at half size */
@@ -175,7 +174,7 @@
 
         p.special3 {
             margin-bottom: 150px; 
-            font-size: 95px; 
+            font-size: 39px; 
             font-style: bold;
            
             
