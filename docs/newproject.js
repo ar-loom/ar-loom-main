@@ -1,14 +1,24 @@
-    window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function() {
       // Calculate the scroll position
       const scrollPosition = window.scrollY;
 
-      // Calculate styles based on scroll position
-      const fontSize = 20 + scrollPosition / 20; // Adjust font size based on scroll position
-      const opacity = Math.min(scrollPosition / 100, 1); // Fade in based on scroll position
+      // Determine when the fade-in and fade-out should occur
+      const fadeInStart = 100; // Scroll position where fade-in starts
+      const fadeOutStart = 300; // Scroll position where fade-out starts
 
-      // Apply styles to the element
-      const element = document.querySelector('.special2');
-      element.style.fontSize = `${fontSize}px`;
-      element.style.opacity = opacity;
-        
-  });
+      // Calculate opacity based on scroll position
+      let opacity;
+      if (scrollPosition < fadeInStart) {
+        opacity = 0; // Hide if before fade-in start
+      } else if (scrollPosition < fadeOutStart) {
+        opacity = (scrollPosition - fadeInStart) / (fadeOutStart - fadeInStart); // Fade in
+      } else {
+        opacity = 1 - (scrollPosition - fadeOutStart) / (fadeOutStart - fadeInStart); // Fade out
+      }
+
+      // Apply opacity to elements with the special2 class
+      const special2Elements = document.querySelectorAll('.special2');
+      special2Elements.forEach(function(element) {
+        element.style.opacity = opacity;
+      });
+    });
