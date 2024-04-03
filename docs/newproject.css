@@ -54,15 +54,6 @@
          p { 
              color: black;
              margin-bottom: 20px; 
-
-
-         }
-         
-         img {
-             max-width: 800px;
-             max-height: 800px;
-             margin-bottom: 50px;
-       
              
 
              
@@ -83,7 +74,7 @@
         p.special2 {
             margin-bottom: 150px; 
             font-size: 35px; 
-            font-style: italic;
+            font-style: bold;
             color: black;
             
 
