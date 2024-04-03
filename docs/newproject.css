@@ -88,9 +88,7 @@
             margin-bottom: 150px; 
             font-size: 35px; 
             font-style: italic;
-            opacity: 0; /* Start fully transparent */
-            transform: scale(0.5); /* Start at half size */
-            transition: opacity 2s, transform 2s; /* Smooth transition */
+            animation: fade-in 2s ease-in-out forwards;
             color: black;
 
         }
