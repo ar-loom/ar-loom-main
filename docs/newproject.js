@@ -12,7 +12,7 @@
     }, { threshold: 0.5 });
 
     // Observe all elements with class 'special2'
-    document.querySelectorAll('.special2').forEach(item => {
+    document.querySelectorAll('p.special2').forEach(item => {
         observer.observe(item);
     });
 }
