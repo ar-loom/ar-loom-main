@@ -71,7 +71,7 @@
             width: 150px;
             opacity: 0.75;
             padding: 10px 15px;
-            position: fixed;
+            
             transition: background-color 0.8s;
             border-right: 3.5px solid #000; /* Adds a separator between buttons */
         }
