@@ -30,7 +30,7 @@
              justify-content: center;
              align-items: center;
              background-color: #333;
-             background-size: 1450 px;
+             background-size: 1450px;
              background-position: center top;
              background-blend-mode: lighten;
              overflow-y: auto;
@@ -50,7 +50,7 @@
             top: 15px;
             left: 15px;
             height: 43px;
-            column-rule-width: 300px;
+            
             float: left;
             font-size: large;
            }
