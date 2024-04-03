@@ -195,7 +195,7 @@
          }
 
         img.flash-on-hover{
-            position: relative;
+            position: fixed;
             top: 15px;
             right: 15px;
             height: 150px;
