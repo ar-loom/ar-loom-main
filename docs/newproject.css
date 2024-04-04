@@ -22,6 +22,7 @@
              
              margin: 0;
              display: flex;
+             font-family: Georgia, serif;
              flex-direction: column;
              justify-content: center;
              align-items: center;
