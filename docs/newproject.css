@@ -87,6 +87,9 @@
        }
 
        .link-glow {
+           font-family: inherit; /* Inherits the font family */
+           font-size: inherit; /* Inherits the font size */
+           color: inherit; /* Inherits the text color */
            text-decoration: none; /* Removes underline from links */
            color: inherit; /* Keeps the text color the same as paragraph */
            cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
