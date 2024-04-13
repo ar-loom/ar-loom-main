@@ -85,3 +85,18 @@
             letter-spacing: 5px;
             
        }
+
+       .link-glow {
+           text-decoration: none; /* Removes underline from links */
+           color: inherit; /* Keeps the text color the same as paragraph */
+           cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+           transition: text-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+         
+      }
+
+       .link-glow:hover {
+           text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* White glow */
+         
+    
+     }
+
