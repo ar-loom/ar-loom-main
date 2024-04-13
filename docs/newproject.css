@@ -71,7 +71,10 @@
             font-family: Roboto, Sans-serif;
             font-size: 35px; 
             font-style: bold;
-            color: black;
+            text-decoration: none; /* Removes underline from links */
+            color: Cornflower Blue; 
+            cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+            transition: text-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
             
 
         }
@@ -86,19 +89,10 @@
             
        }
 
-       .link-glow {
-           font-family: inherit; /* Inherits the font family */
-           font-size: inherit; /* Inherits the font size */
-           color: CornflowerBlue; 
-           margin-bottom: 150px;
-           text-decoration: none; /* Removes underline from links */
-           color: inherit; /* Keeps the text color the same as paragraph */
-           cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
-           transition: text-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
-         
-      }
 
-       .link-glow:hover {
+        
+
+       .special2:hover {
            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* White glow */
          
     
