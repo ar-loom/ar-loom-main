@@ -71,6 +71,7 @@
             font-family: Roboto, Sans-serif;
             font-size: 35px; 
             font-style: bold;
+            display: block;  /* or 'inline-block' depending on needs */
             text-decoration: none; /* Removes underline from links */
             color: Cornflower Blue; 
             cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
