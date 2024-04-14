@@ -82,6 +82,23 @@
 
         }
 
+
+          .special4 {
+            margin-bottom: 150px;
+            font-family: Roboto, Sans-serif;
+            font-size: 26px; 
+            font-style: bold;
+            display: block;  /* or 'inline-block' depending on needs */
+            text-decoration: none; /* Removes underline from links */
+            color: LightSkyBlue; 
+            cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+            transition: text-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+            position: relative;
+          
+            
+
+        }
+
          .special2::after {
                 content: "Coming Soon"; /* The tooltip text */
                 position: absolute;
