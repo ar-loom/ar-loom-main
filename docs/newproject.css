@@ -73,7 +73,7 @@
             font-style: bold;
             display: block;  /* or 'inline-block' depending on needs */
             text-decoration: none; /* Removes underline from links */
-            color: Cornflower Blue; 
+            color: LightSkyBlue; 
             cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
             transition: text-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
             
