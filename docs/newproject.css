@@ -100,7 +100,7 @@
         }
 
          .special2::after {
-                content: "Coming Soon"; /* The tooltip text */
+                content: "coming soon"; /* The tooltip text */
                 position: absolute;
                 bottom: 100%; /* Position the tooltip above the element */
                 left: 50%; /* Center the tooltip */
@@ -111,7 +111,7 @@
                 width: auto; /* Auto width based on content size */
                 background-color: black; /* Tooltip background color */
                 font-size: 5px;
-                font-family: Roboto, Sans-serif;
+                font-family: Courier New, monospace;
                 color: white; /* Text color */
                 text-align: center;
                 border-radius: 6px;
