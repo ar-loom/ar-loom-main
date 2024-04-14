@@ -76,9 +76,41 @@
             color: LightSkyBlue; 
             cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
             transition: text-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+          
             
 
         }
+
+         .special2::after {
+                content: "Coming Soon"; /* The tooltip text */
+                position: absolute;
+                bottom: 100%; /* Position the tooltip above the element */
+                left: 50%; /* Center the tooltip */
+                transform: translateX(-50%); /* Correct the centering based on the tooltip's width */
+                white-space: nowrap; /* Ensures the tooltip text stays in a single line */
+                visibility: hidden; /* Hide tooltip by default */
+                opacity: 0; /* Start with the tooltip transparent */
+                width: auto; /* Auto width based on content size */
+                background-color: black; /* Tooltip background color */
+                color: white; /* Text color */
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 10px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Optional shadow for better visibility */
+                transition: opacity 0.3s, visibility 0.3s; /* Smooth transition for tooltip appearance */
+           
+         }
+
+
+
+        .special2:hover::after {
+                visibility: visible; /* Show tooltip on hover */
+                opacity: 1; /* Make tooltip fully opaque on hover */
+
+          
+         }
+
+
 
         p.special3 {
             margin-bottom: 150px;
