@@ -110,7 +110,7 @@
                 opacity: 0; /* Start with the tooltip transparent */
                 width: auto; /* Auto width based on content size */
                 background-color: black; /* Tooltip background color */
-                font-size: 5px;
+                font-size: 15px;
                 font-family: Courier New, monospace;
                 color: white; /* Text color */
                 text-align: center;
