@@ -99,6 +99,15 @@
 
         }
 
+         .special4:hover {
+           font-size: 27px; /* Larger font size on hover */
+
+
+           
+        }
+
+
+
          .special2::after {
                 content: "coming soon"; /* The tooltip text */
                 position: absolute;
@@ -126,6 +135,8 @@
         .special2:hover::after {
                 visibility: visible; /* Show tooltip on hover */
                 opacity: 1; /* Make tooltip fully opaque on hover */
+                font-size: 27px; /* Larger font size on hover */
+                
 
           
          }
