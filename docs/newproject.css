@@ -90,7 +90,7 @@
             font-style: bold;
             display: block;  /* or 'inline-block' depending on needs */
             text-decoration: none; /* Removes underline from links */
-            color: LightSkyBlue; 
+            color: Black; 
             cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
             transition: font-size 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for the glow effect */
             position: relative;
