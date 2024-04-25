@@ -165,6 +165,6 @@
       /* Media query for desktops */
        @media (min-width: 768px) {
           body {
-            padding-top: 100px; /* Additional top padding for desktop */
+            padding-top: 250px; /* Additional top padding for desktop */
           }
      }
