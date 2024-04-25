@@ -1,4 +1,6 @@
-@media (max-width: 600px) {    
+ @media (min-width: 768px) {
+    width: 80%; /* Wider container for larger screens */
+    max-width: 1200px; /* Maximum width to avoid overly wide layouts */
              body {
                      font-size: 14px;
          }
