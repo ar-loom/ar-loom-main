@@ -37,15 +37,11 @@
              margin-top: 70px;
              margin-bottom: 10px;
 
-         }
-
-         p {
-             color: black;
-             margin-bottom: 150px; 
+         
 
          }
 
-         p { 
+         p.special5 { 
              color: black;
              margin-bottom: 20px; 
              
@@ -168,7 +164,7 @@
         padding-top: 25px; /* Additional top padding for the entire webpage on desktop */
     }
 
-          p {
+          p.special5 {
         padding-bottom: 200px; /* Adds additional padding below the special3 class for desktop */
    
           }
