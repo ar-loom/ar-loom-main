@@ -161,11 +161,22 @@
       /* Media query for desktops */
        @media (min-width: 768px) {
           body {
-        padding-top: 25px; /* Additional top padding for the entire webpage on desktop */
+           padding-top: 30px; /* Additional top padding for the entire webpage on desktop */
+                   
+    }
+                
+         H1 { 
+           font-size: 850%
+                    
     }
 
           p.special5 {
-        padding-bottom: 200px; /* Adds additional padding below the special5 class for desktop */
+           padding-bottom: 200px; /* Adds additional padding below the special5 class for desktop */
    
-          }
-     }
+          
+    }
+         p.special3 {
+           font-size: 150%
+
+    }
+}
