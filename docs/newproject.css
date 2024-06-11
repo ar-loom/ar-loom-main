@@ -174,4 +174,19 @@
            font-size: 150%
 
     }
+
+         .image-row {
+           display: flex;
+           justify-content: center; /* Center the row horizontally */
+           margin-top: 20px; /* Space between the div and the row of images */
+    }
+    
+        .image-row img {
+           width: 100px; /* Set a fixed width */
+           height: 100px; /* Set a fixed height */
+           margin: 0 10px; /* Space between images */
+
+
+         
+    }
 }
